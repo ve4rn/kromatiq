@@ -1,0 +1,63 @@
+{
+  "name": "kromatiq",
+  "version": "0.0.2",
+  "description": "Discord-first color engine with named colors, palettes, gradients, Tailwind tokens, and role color systems.",
+  "type": "module",
+  "main": "dist/index.js",
+  "author": "ve4rn",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./register": {
+      "types": "./register.d.ts",
+      "import": "./register.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "register": [
+        "register.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "register.js",
+    "register.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node ./scripts/run-tsc.mjs -p tsconfig.json",
+    "typecheck": "node ./scripts/run-tsc.mjs --noEmit -p tsconfig.json && node ./scripts/run-tsc.mjs -p tsconfig.examples.json"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "colors",
+    "color",
+    "palette",
+    "palettes",
+    "gradient",
+    "gradients",
+    "tailwind",
+    "design-system",
+    "role-colors",
+    "embed-colors"
+  ],
+  "peerDependencies": {
+    "discord.js": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ve4rn/kromatiq.git"
+  },
+  "homepage": "https://github.com/ve4rn/kromatiq",
+  "bugs": {
+    "url": "https://github.com/ve4rn/kromatiq/issues"
+  },
+  "license": "MIT"
+}
