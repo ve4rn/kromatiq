@@ -161,15 +161,15 @@ One system. Zero friction.
 
 ## Available Colors & Palettes
 
-Fill this section with your final shipped datasets.
+Kromatiq includes a complete color system out of the box:
 
-| Category | Available | Notes |
-| --- | --- | --- |
-| Discord colors | ✅ | 30 |
-| Named colors | ✅ | 170 |
-| Tailwind tokens | ✅ | 300 |
-| Built-in palettes | ✅ | 20 |
-| Gradient-ready palettes | ✅ | 20 |
+| Category                 | Included | Scale |
+|--------------------------|----------|--------|
+| Discord colors           | ✅        | 30     |
+| Named colors             | ✅        | 170    |
+| Tailwind tokens          | ✅        | 300+   |
+| Built-in palettes        | ✅        | 20     |
+| Gradient-ready palettes  | ✅        | 20     |
 
 ---
 
